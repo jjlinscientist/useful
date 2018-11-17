@@ -10,8 +10,6 @@
 #' load_library_list(c("data.table", "Biostrings"))
 #' load_library_list(list_of_packages)
 
-#------------------------------------------------------------
-
 load_library_list <- function(library_list)
 {
 	lapply(
@@ -26,6 +24,8 @@ load_library_list <- function(library_list)
 	       )
 }
 
+#------------------------------------------------------------
+
 #' random DNA sequence generator
 #'
 #' generate a random string of DNA (or RNA) bases
@@ -35,8 +35,6 @@ load_library_list <- function(library_list)
 #' @export
 #' @examples
 #' random_DNA(12, is_RNA = TRUE, seed = 123)
-
-#------------------------------------------------------------
 
 random_DNA <- function(
 		       length,
@@ -67,3 +65,5 @@ random_DNA <- function(
 			   )
 	paste0(sequence, collapse = "")
 }
+
+#------------------------------------------------------------
