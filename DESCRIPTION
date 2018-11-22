@@ -3,11 +3,11 @@ Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "First",
-           family = "Last",
+           family = "Lin",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
-License: What license it uses
+           email = "justin.jnn.lin@gmail.com")
+Description: Repository of useful R scripts for general development
+License: GPLv3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
