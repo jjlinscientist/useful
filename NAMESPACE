@@ -3,3 +3,4 @@
 export(load_library_list)
 export(qq)
 export(random_DNA)
+export(read_genbank)
