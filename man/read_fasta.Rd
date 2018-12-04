@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_fasta.src.R
 \name{read_fasta}
 \alias{read_fasta}
-\title{simple fasta file batch reader}
+\title{fasta batch Biostrings}
 \usage{
 read_fasta(files, is_RNA = FALSE, output_list = FALSE)
 }
@@ -14,8 +14,10 @@ read_fasta(files, is_RNA = FALSE, output_list = FALSE)
 \item{output_list}{logical argument to concatenate list of XStringSets - default is FALSE}
 }
 \description{
-extract DNAStringSet data from a batch of fasta files - requires package Biostrings
+extract DNAStringSet data from a batch of fasta files: requires package Biostrings
 }
 \examples{
-read_fasta(files = c("path/to/example1.fa", "path/to/example2.fa"), is_RNA = FALSE, output_list = FALSE)
+read_fasta(files = c("path/to/example1.fa", "path/to/example2.fa"), 
+	      is_RNA = FALSE,
+      output_list = FALSE)
 }
