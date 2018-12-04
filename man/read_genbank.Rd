@@ -8,10 +8,12 @@ read_genbank(files)
 }
 \arguments{
 \item{files}{path or list of paths to genbank files}
+
+\item{output_list}{logical argument to concatenate list of XStringSets - default is FALSE}
 }
 \description{
-extract DNAStringSet data from genbank files
+extract DNAStringSet data from batch of genbank files - requires package Biostrings
 }
 \examples{
-random_DNA(c("example1.gb", "example2.gb"))
+random_DNA(files = c("path/to/example1.gb", "path/to/example2.gb"), output_list = FALSE)
 }
