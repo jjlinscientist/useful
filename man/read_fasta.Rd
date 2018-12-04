@@ -17,7 +17,5 @@ read_fasta(files, is_RNA = FALSE, output_list = FALSE)
 extract DNAStringSet data from a batch of fasta files: requires package Biostrings
 }
 \examples{
-read_fasta(files = c("path/to/example1.fa", "path/to/example2.fa"), 
-	      is_RNA = FALSE,
-      output_list = FALSE)
+read_fasta(files = c("path/to/example1.fa", "path/to/example2.fa"), is_RNA = FALSE, output_list = FALSE)
 }

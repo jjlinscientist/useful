@@ -1,12 +1,11 @@
-#' simple genbank file reader
+#' genbank batch Biostrings
 #'
 #' extract DNAStringSet data from batch of genbank files: requires package Biostrings
 #' @param files path or list of paths to genbank files
 #' @param output_list logical argument to concatenate list of XStringSets - default is FALSE
 #' @export
 #' @examples
-#' random_DNA(files = c("path/to/example1.gb", "path/to/example2.gb"), 
-#'	      output_list = FALSE)
+#' random_DNA(files = c("path/to/example1.gb", "path/to/example2.gb"), output_list = FALSE)
 
 read_genbank <- function(files)
 {

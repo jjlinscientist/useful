@@ -2,7 +2,7 @@
 % Please edit documentation in R/read_genbank.src.R
 \name{read_genbank}
 \alias{read_genbank}
-\title{simple genbank file reader}
+\title{genbank batch Biostrings}
 \usage{
 read_genbank(files)
 }
@@ -15,6 +15,5 @@ read_genbank(files)
 extract DNAStringSet data from batch of genbank files: requires package Biostrings
 }
 \examples{
-random_DNA(files = c("path/to/example1.gb", "path/to/example2.gb"), 
-      output_list = FALSE)
+random_DNA(files = c("path/to/example1.gb", "path/to/example2.gb"), output_list = FALSE)
 }
