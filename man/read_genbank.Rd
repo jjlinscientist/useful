@@ -4,7 +4,7 @@
 \alias{read_genbank}
 \title{genbank batch Biostrings}
 \usage{
-read_genbank(files)
+read_genbank(files, output_list = FALSE)
 }
 \arguments{
 \item{files}{path or list of paths to genbank files}

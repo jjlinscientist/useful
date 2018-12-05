@@ -7,7 +7,8 @@
 #' @examples
 #' random_DNA(files = c("path/to/example1.gb", "path/to/example2.gb"), output_list = FALSE)
 
-read_genbank <- function(files)
+read_genbank <- function(files,
+			 output_list = FALSE)
 {
 	sequences <- lapply(files,
 			    function(file)
