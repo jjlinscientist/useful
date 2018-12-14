@@ -6,11 +6,11 @@
 #' @param return_data.table logical argument for table type (defaults to TRUE)
 #' @export
 #' @examples
-#' tab_zero_NA(table, replacement = 0)
+#' tab_zero_NA(table, replacement = "0", return_data.frame = TRUE)
 
 tab_zero_NA <- function(data,
 			replacement = 0,
-			return_data.frame = FALSE)
+			return_data.table = TRUE)
 {
 	data <- as.data.frame(table)
 	data[is.na(data)] <- replacement

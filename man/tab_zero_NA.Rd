@@ -4,7 +4,7 @@
 \alias{tab_zero_NA}
 \title{data.table replace NAs}
 \usage{
-tab_zero_NA(data, replacement = 0, return_data.frame = FALSE)
+tab_zero_NA(data, replacement = 0, return_data.table = TRUE)
 }
 \arguments{
 \item{data}{either data.table or data.frame object}
@@ -17,5 +17,5 @@ tab_zero_NA(data, replacement = 0, return_data.frame = FALSE)
 replaces all NAs in a data.table with a set value
 }
 \examples{
-tab_zero_NA(table, replacement = 0)
+tab_zero_NA(table, replacement = "0", return_data.frame = TRUE)
 }
