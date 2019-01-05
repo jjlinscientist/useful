@@ -11,5 +11,5 @@ Parses Sys.time() for a filename-friendly timestamp
 }
 \examples{
 get_dateTime() 
-[1] "2019-01-01_00:00:01"
+[1] "2019-01-01_000001"
 }
