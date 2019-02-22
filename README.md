@@ -3,7 +3,12 @@
 install:
 ```
 install.packages("devtools")
-devtools::install_github("jjlinscientist/useful_R_functions")
+devtools::install_github("jjlinscientist/useful")
+```
+or
+```
+$ git clone https://github.com/jjlinscientist/useful
+$ R CMD INSTALL useful
 ```
 
 dev_environment:
