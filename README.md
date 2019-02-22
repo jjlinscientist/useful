@@ -1,4 +1,4 @@
-# useful_R_functions
+# useful R functions
 
 install:
 ```
