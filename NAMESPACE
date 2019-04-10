@@ -3,6 +3,7 @@
 export(ecobrewer.pal)
 export(get_dateTime)
 export(load_library_list)
+export(mkdir)
 export(qq)
 export(random_DNA)
 export(read_fasta)
